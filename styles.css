@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #001f3f; /* Navy Blue Background */
+  color: #211919;
+}
+
+/* Container to Align Profile and Bio Sections */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.profile-section {
+  background-color: #fdfafa;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #001f3f;
+  margin-bottom: 1rem;
+}
+
+.profile-section h1, .profile-section p {
+  margin: 0.5rem 0;
+}
+
+/* Bio Section */
+.bio-section {
+  flex-grow: 1;
+  padding: 2rem;
+  color: #fff;
+}
+
+.bio-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bio-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.bio-section button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.bio-section button:hover {
+  background-color: #4caf50;
+}
+
+/* Page Content for Interests and Projects Pages */
+.page-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #fff;
+  color: #001f3f;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.page-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.page-content li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Button Styles for Back and Home (for Interest and Projects pages) */
+.button-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.back-button, .home-button {
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+
+.back-button:hover {
+  background-color: #45a049;
+}
+
+.home-button {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.home-button:hover {
+  background-color: #0069d9;
+}
